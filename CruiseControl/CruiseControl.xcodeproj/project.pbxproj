@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
+		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
+		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
+		FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7A795B195C049400C4ADC0 /* Images.xcassets */; };
+		FD7A7968195C049400C4ADC0 /* CruiseControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7A7962195C049400C4ADC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7A7947195C049400C4ADC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7A794E195C049400C4ADC0;
+			remoteInfo = CruiseControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD7A7956195C049400C4ADC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD7A7959195C049400C4ADC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7A795B195C049400C4ADC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD7A7961195C049400C4ADC0 /* CruiseControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruiseControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7A7966195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7A794C195C049400C4ADC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7A795E195C049400C4ADC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7A7946195C049400C4ADC0 = {
+			isa = PBXGroup;
+			children = (
+				FD7A7951195C049400C4ADC0 /* CruiseControl */,
+				FD7A7964195C049400C4ADC0 /* CruiseControlTests */,
+				FD7A7950195C049400C4ADC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7A7950195C049400C4ADC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A794F195C049400C4ADC0 /* CruiseControl.app */,
+				FD7A7961195C049400C4ADC0 /* CruiseControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7A7951195C049400C4ADC0 /* CruiseControl */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A7954195C049400C4ADC0 /* AppDelegate.swift */,
+				FD7A7956195C049400C4ADC0 /* ViewController.swift */,
+				FD7A7958195C049400C4ADC0 /* Main.storyboard */,
+				FD7A795B195C049400C4ADC0 /* Images.xcassets */,
+				FD7A7952195C049400C4ADC0 /* Supporting Files */,
+			);
+			path = CruiseControl;
+			sourceTree = "<group>";
+		};
+		FD7A7952195C049400C4ADC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A7953195C049400C4ADC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7A7964195C049400C4ADC0 /* CruiseControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */,
+				FD7A7965195C049400C4ADC0 /* Supporting Files */,
+			);
+			path = CruiseControlTests;
+			sourceTree = "<group>";
+		};
+		FD7A7965195C049400C4ADC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A7966195C049400C4ADC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7A794E195C049400C4ADC0 /* CruiseControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7A796B195C049400C4ADC0 /* Build configuration list for PBXNativeTarget "CruiseControl" */;
+			buildPhases = (
+				FD7A794B195C049400C4ADC0 /* Sources */,
+				FD7A794C195C049400C4ADC0 /* Frameworks */,
+				FD7A794D195C049400C4ADC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CruiseControl;
+			productName = CruiseControl;
+			productReference = FD7A794F195C049400C4ADC0 /* CruiseControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7A7960195C049400C4ADC0 /* CruiseControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7A796E195C049400C4ADC0 /* Build configuration list for PBXNativeTarget "CruiseControlTests" */;
+			buildPhases = (
+				FD7A795D195C049400C4ADC0 /* Sources */,
+				FD7A795E195C049400C4ADC0 /* Frameworks */,
+				FD7A795F195C049400C4ADC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7A7963195C049400C4ADC0 /* PBXTargetDependency */,
+			);
+			name = CruiseControlTests;
+			productName = CruiseControlTests;
+			productReference = FD7A7961195C049400C4ADC0 /* CruiseControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7A7947195C049400C4ADC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LukeBuckless;
+				TargetAttributes = {
+					FD7A794E195C049400C4ADC0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD7A7960195C049400C4ADC0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD7A794E195C049400C4ADC0;
+					};
+				};
+			};
+			buildConfigurationList = FD7A794A195C049400C4ADC0 /* Build configuration list for PBXProject "CruiseControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7A7946195C049400C4ADC0;
+			productRefGroup = FD7A7950195C049400C4ADC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7A794E195C049400C4ADC0 /* CruiseControl */,
+				FD7A7960195C049400C4ADC0 /* CruiseControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7A794D195C049400C4ADC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
+				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7A795F195C049400C4ADC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7A794B195C049400C4ADC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */,
+				FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7A795D195C049400C4ADC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A7968195C049400C4ADC0 /* CruiseControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7A7963195C049400C4ADC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7A794E195C049400C4ADC0 /* CruiseControl */;
+			targetProxy = FD7A7962195C049400C4ADC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7A7958195C049400C4ADC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7A7959195C049400C4ADC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7A7969195C049400C4ADC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7A796A195C049400C4ADC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7A796C195C049400C4ADC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CruiseControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD7A796D195C049400C4ADC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CruiseControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD7A796F195C049400C4ADC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CruiseControl.app/CruiseControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CruiseControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FD7A7970195C049400C4ADC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CruiseControl.app/CruiseControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CruiseControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7A794A195C049400C4ADC0 /* Build configuration list for PBXProject "CruiseControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A7969195C049400C4ADC0 /* Debug */,
+				FD7A796A195C049400C4ADC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7A796B195C049400C4ADC0 /* Build configuration list for PBXNativeTarget "CruiseControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A796C195C049400C4ADC0 /* Debug */,
+				FD7A796D195C049400C4ADC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD7A796E195C049400C4ADC0 /* Build configuration list for PBXNativeTarget "CruiseControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A796F195C049400C4ADC0 /* Debug */,
+				FD7A7970195C049400C4ADC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7A7947195C049400C4ADC0 /* Project object */;
+}
