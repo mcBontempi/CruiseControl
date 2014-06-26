@@ -24,6 +24,10 @@
 	<true/>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We want to track you.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>skdhcjdsc</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

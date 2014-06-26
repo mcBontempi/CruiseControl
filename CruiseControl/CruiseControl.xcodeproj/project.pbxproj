@@ -12,6 +12,12 @@
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
 		FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7A795B195C049400C4ADC0 /* Images.xcassets */; };
 		FD7A7968195C049400C4ADC0 /* CruiseControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */; };
+		FD7A7978195C2E5700C4ADC0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7972195C2E5700C4ADC0 /* background.png */; };
+		FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7973195C2E5700C4ADC0 /* chevron1.png */; };
+		FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7974195C2E5700C4ADC0 /* chevron2.png */; };
+		FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7975195C2E5700C4ADC0 /* chevron4.png */; };
+		FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7976195C2E5700C4ADC0 /* chevron5.png */; };
+		FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7977195C2E5700C4ADC0 /* targetspeed.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		FD7A7961195C049400C4ADC0 /* CruiseControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruiseControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7966195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseControlTests.swift; sourceTree = "<group>"; };
+		FD7A7972195C2E5700C4ADC0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = assets/background.png; sourceTree = SOURCE_ROOT; };
+		FD7A7973195C2E5700C4ADC0 /* chevron1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron1.png; path = assets/chevron1.png; sourceTree = SOURCE_ROOT; };
+		FD7A7974195C2E5700C4ADC0 /* chevron2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron2.png; path = assets/chevron2.png; sourceTree = SOURCE_ROOT; };
+		FD7A7975195C2E5700C4ADC0 /* chevron4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron4.png; path = assets/chevron4.png; sourceTree = SOURCE_ROOT; };
+		FD7A7976195C2E5700C4ADC0 /* chevron5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron5.png; path = assets/chevron5.png; sourceTree = SOURCE_ROOT; };
+		FD7A7977195C2E5700C4ADC0 /* targetspeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targetspeed.png; path = assets/targetspeed.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 		FD7A7951195C049400C4ADC0 /* CruiseControl */ = {
 			isa = PBXGroup;
 			children = (
+				FD7A7971195C2E4400C4ADC0 /* assets */,
 				FD7A7954195C049400C4ADC0 /* AppDelegate.swift */,
 				FD7A7956195C049400C4ADC0 /* ViewController.swift */,
 				FD7A7958195C049400C4ADC0 /* Main.storyboard */,
@@ -107,6 +120,19 @@
 				FD7A7966195C049400C4ADC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7A7971195C2E4400C4ADC0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A7972195C2E5700C4ADC0 /* background.png */,
+				FD7A7973195C2E5700C4ADC0 /* chevron1.png */,
+				FD7A7974195C2E5700C4ADC0 /* chevron2.png */,
+				FD7A7975195C2E5700C4ADC0 /* chevron4.png */,
+				FD7A7976195C2E5700C4ADC0 /* chevron5.png */,
+				FD7A7977195C2E5700C4ADC0 /* targetspeed.png */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +184,7 @@
 				TargetAttributes = {
 					FD7A794E195C049400C4ADC0 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 3U786KR73N;
 					};
 					FD7A7960195C049400C4ADC0 = {
 						CreatedOnToolsVersion = 6.0;
@@ -189,8 +216,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */,
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
+				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
+				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
+				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
+				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
+				FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +293,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -280,6 +314,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "86FEAD0C-C935-4A01-B62B-E0A3A52F09C5";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -302,7 +337,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -315,6 +351,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "86FEAD0C-C935-4A01-B62B-E0A3A52F09C5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -326,8 +363,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CruiseControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -337,8 +376,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CruiseControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

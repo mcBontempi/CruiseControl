@@ -15,14 +15,64 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="RaS-29-XaP">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="568" id="Bxc-db-4zB"/>
+                                    <constraint firstAttribute="height" constant="320" id="lhk-SP-gec"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="idp-XE-DKI" appends="YES" id="imN-AM-u3Y"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="und-Sg-7nm">
+                                <rect key="frame" x="259" y="292" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7IV-4W-rdA"/>
+                                    <constraint firstAttribute="width" constant="70" id="JI8-Yd-1CD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RaS-29-XaP" secondAttribute="trailing" id="32V-Wt-bBU"/>
+                            <constraint firstItem="RaS-29-XaP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="3Wk-u6-caV"/>
+                            <constraint firstAttribute="centerX" secondItem="und-Sg-7nm" secondAttribute="centerX" constant="-10" id="8D6-6W-e7E"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RaS-29-XaP" secondAttribute="bottom" id="NsW-3n-FF0"/>
+                            <constraint firstItem="RaS-29-XaP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Oco-oW-CEB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="und-Sg-7nm" secondAttribute="bottom" constant="7" id="Oj1-xH-ZXg"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="idp-XE-DKI" appends="YES" id="Lcu-B0-FAL"/>
+                        </connections>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="RaS-29-XaP" id="Ufe-Z7-XMH"/>
+                        <outlet property="speedLabel" destination="und-Sg-7nm" id="Q0Q-sx-f04"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="idp-XE-DKI">
+                    <connections>
+                        <action selector="viewTapped:" destination="vXZ-lx-hvc" id="ZHL-HB-UHZ"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="yC8-bS-oje"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="384" y="208"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="1136" height="640"/>
+    </resources>
 </document>
