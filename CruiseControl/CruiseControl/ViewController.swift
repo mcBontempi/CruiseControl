@@ -11,7 +11,7 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController , CLLocationManagerDelegate {
-                            
+  
   @IBOutlet var backgroundImageView: UIImageView
   @IBOutlet var speedLabel: UILabel
   
@@ -31,8 +31,12 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     }
   }
   
+  @IBOutlet var timeLabel: UILabel
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
     
     manager = CLLocationManager()
@@ -42,36 +46,51 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     manager.startUpdatingLocation()
   }
   
-  func locationManager(manager:CLLocationManager, didUpdateLocations locations:AnyObject[]) {
+  
+  
+  func updateTime()
+  {
+    var dateFormatter = NSDateFormatter()
+    dateFormatter.dateFormat = "HH:mm"
+    let d = NSDate()
+    let s = dateFormatter.stringFromDate(d)
+  
+    timeLabel.text = s
+    
+  }
+  
+  func locationManager(manager:CLLocationManager, didUpdateLocations locations:AnyObject[])
+  {
+  
     println("locations = \(locations)")
-
+    
+    updateTime()
+    
     let location = locations[0] as CLLocation
-
-    let metresPerSecond = location.speed
     
-    let milesPerSecond:CLLocationSpeed =  1609 / metresPerSecond;
+    currentSpeed = location.speed / 0.44706667;
     
-    let milesPerHour = milesPerSecond / 60*60
-    
-    speedLabel.text = "\(milesPerHour)"
-    
-    currentSpeed = milesPerHour;
-    
+    speedLabel.text = String(format:"%.1f",currentSpeed)
     
     if let cruizeSpeedNotNil = cruiseSpeed {
-    
-    let difference = currentSpeed - cruiseSpeed
-    
       
+      let difference = cruiseSpeed - currentSpeed
       
-      
-    if difference > 1 {
-      backgroundImageView.image = UIImage(named:"chevron1")
-    }
-    
-      
-      
-      
+      if difference < -1.5 {
+        backgroundImageView.image = UIImage(named:"chevron1")
+      }
+      else if difference < -0.5 {
+        backgroundImageView.image = UIImage(named:"chevron2")
+      }
+      else if difference > 1.5 {
+        backgroundImageView.image = UIImage(named:"chevron5")
+      }
+      else if difference > 0.5 {
+        backgroundImageView.image = UIImage(named:"chevron4")
+      }
+      else {
+        backgroundImageView.image = UIImage(named:"targetspeed")
+      }
       
     }
     else {
@@ -79,12 +98,12 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     }
     
   }
-
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-
-
+  
+  
 }
 

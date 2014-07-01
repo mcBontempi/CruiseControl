@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bsB-ox-kcq">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
@@ -28,13 +28,23 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="und-Sg-7nm">
-                                <rect key="frame" x="259" y="292" width="70" height="21"/>
+                                <rect key="frame" x="259" y="287" width="70" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="7IV-4W-rdA"/>
+                                    <constraint firstAttribute="height" constant="30" id="7IV-4W-rdA"/>
                                     <constraint firstAttribute="width" constant="70" id="JI8-Yd-1CD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <color key="textColor" red="0.57414040739219829" green="1" blue="0.80083331952476544" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtH-iG-BnN">
+                                <rect key="frame" x="385" y="297" width="38" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="D7b-C5-JuH"/>
+                                    <constraint firstAttribute="height" constant="21" id="EH1-J1-z52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.95537504895305658" green="0.98950915167111531" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -44,9 +54,11 @@
                             <constraint firstAttribute="trailing" secondItem="RaS-29-XaP" secondAttribute="trailing" id="32V-Wt-bBU"/>
                             <constraint firstItem="RaS-29-XaP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="3Wk-u6-caV"/>
                             <constraint firstAttribute="centerX" secondItem="und-Sg-7nm" secondAttribute="centerX" constant="-10" id="8D6-6W-e7E"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FtH-iG-BnN" secondAttribute="bottom" constant="2" id="EKd-C5-kqt"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RaS-29-XaP" secondAttribute="bottom" id="NsW-3n-FF0"/>
                             <constraint firstItem="RaS-29-XaP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Oco-oW-CEB"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="und-Sg-7nm" secondAttribute="bottom" constant="7" id="Oj1-xH-ZXg"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="und-Sg-7nm" secondAttribute="bottom" constant="3" id="Oj1-xH-ZXg"/>
+                            <constraint firstAttribute="centerX" secondItem="FtH-iG-BnN" secondAttribute="centerX" constant="-120" id="mlr-1F-Yae"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <connections>
@@ -59,6 +71,7 @@
                     <connections>
                         <outlet property="backgroundImageView" destination="RaS-29-XaP" id="Ufe-Z7-XMH"/>
                         <outlet property="speedLabel" destination="und-Sg-7nm" id="Q0Q-sx-f04"/>
+                        <outlet property="timeLabel" destination="FtH-iG-BnN" id="J3K-Jj-1K4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -69,7 +82,27 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="384" y="208"/>
+            <point key="canvasLocation" x="316" y="208"/>
+        </scene>
+        <!--Aero View Controller-->
+        <scene sceneID="dXD-p0-M5L">
+            <objects>
+                <viewController id="bsB-ox-kcq" customClass="AeroViewController" customModule="CruiseControl" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cOj-YH-Cbr"/>
+                        <viewControllerLayoutGuide type="bottom" id="rF2-f9-6ux"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uQz-F3-U86">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="758"/>
         </scene>
     </scenes>
     <resources>

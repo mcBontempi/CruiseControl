@@ -18,6 +18,7 @@
 		FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7975195C2E5700C4ADC0 /* chevron4.png */; };
 		FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7976195C2E5700C4ADC0 /* chevron5.png */; };
 		FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7977195C2E5700C4ADC0 /* targetspeed.png */; };
+		FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC84F519629D7C00467F30 /* AeroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FD7A7975195C2E5700C4ADC0 /* chevron4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron4.png; path = assets/chevron4.png; sourceTree = SOURCE_ROOT; };
 		FD7A7976195C2E5700C4ADC0 /* chevron5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron5.png; path = assets/chevron5.png; sourceTree = SOURCE_ROOT; };
 		FD7A7977195C2E5700C4ADC0 /* targetspeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targetspeed.png; path = assets/targetspeed.png; sourceTree = SOURCE_ROOT; };
+		FDEC84F519629D7C00467F30 /* AeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				FD7A7958195C049400C4ADC0 /* Main.storyboard */,
 				FD7A795B195C049400C4ADC0 /* Images.xcassets */,
 				FD7A7952195C049400C4ADC0 /* Supporting Files */,
+				FDEC84F519629D7C00467F30 /* AeroViewController.swift */,
 			);
 			path = CruiseControl;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */,
 				FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */,
 				FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */,
 			);
@@ -438,6 +442,7 @@
 				FD7A796D195C049400C4ADC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD7A796E195C049400C4ADC0 /* Build configuration list for PBXNativeTarget "CruiseControlTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +451,7 @@
 				FD7A7970195C049400C4ADC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
