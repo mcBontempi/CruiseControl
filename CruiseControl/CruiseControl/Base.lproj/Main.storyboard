@@ -95,10 +95,43 @@
                     <view key="view" contentMode="scaleToFill" id="uQz-F3-U86">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcA-VI-rwy">
+                                <rect key="frame" x="74" y="427" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVW-ce-13D">
+                                <rect key="frame" x="0.0" y="0.0" width="1482" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1482" id="aqZ-up-VdH"/>
+                                    <constraint firstAttribute="height" constant="83" id="kQc-aE-lkm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
+                                <rect key="frame" x="74" y="370" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speedoOverlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-5d-aLw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="fVW-ce-13D" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="dch-pD-iDQ"/>
+                            <constraint firstItem="fVW-ce-13D" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" id="fG7-23-Ixn"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="speedLabel" destination="UUG-2c-g1J" id="zYM-tK-HbH"/>
+                        <outlet property="speedoOffset" destination="dch-pD-iDQ" id="DV5-pq-IIh"/>
+                        <outlet property="timeLabel" destination="ZcA-VI-rwy" id="mjQ-KM-fRD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,5 +140,7 @@
     </scenes>
     <resources>
         <image name="background.png" width="1136" height="640"/>
+        <image name="speedo.png" width="1482" height="83"/>
+        <image name="speedoOverlay.png" width="320" height="83"/>
     </resources>
 </document>

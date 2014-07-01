@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD649B6A1963078600DBE222 /* speedo@2x.png */; };
+		FD649B6D196308F700DBE222 /* speedoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD649B6C196308F700DBE222 /* speedoOverlay@2x.png */; };
 		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
 		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD649B6A1963078600DBE222 /* speedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedo@2x.png"; path = "assets/speedo@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD649B6C196308F700DBE222 /* speedoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedoOverlay@2x.png"; path = "assets/speedoOverlay@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		FD7A7971195C2E4400C4ADC0 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				FD649B6A1963078600DBE222 /* speedo@2x.png */,
+				FD649B6C196308F700DBE222 /* speedoOverlay@2x.png */,
 				FD7A7972195C2E5700C4ADC0 /* background.png */,
 				FD7A7973195C2E5700C4ADC0 /* chevron1.png */,
 				FD7A7974195C2E5700C4ADC0 /* chevron2.png */,
@@ -219,11 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD649B6D196308F700DBE222 /* speedoOverlay@2x.png in Resources */,
 				FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */,
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
 				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
+				FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */,
 				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
 				FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */,
