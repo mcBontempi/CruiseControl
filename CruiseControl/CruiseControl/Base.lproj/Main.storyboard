@@ -96,6 +96,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="middle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bvI-Vu-AQS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="ADd-kG-r5v">
                                 <rect key="frame" x="0.0" y="448" width="320" height="120"/>
                                 <constraints>
@@ -141,12 +144,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="speedoOverlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-5d-aLw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2b-8p-qE8">
-                                <rect key="frame" x="139" y="274" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
                                 <rect key="frame" x="67" y="484" width="138" height="59"/>
                                 <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="41"/>
@@ -159,6 +156,8 @@
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="CfA-wD-W2Y"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="H87-nP-VWu"/>
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="JFB-Ym-Wsg"/>
+                            <constraint firstAttribute="trailing" secondItem="bvI-Vu-AQS" secondAttribute="trailing" id="OtP-aS-iXa"/>
+                            <constraint firstItem="bvI-Vu-AQS" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="RmG-m5-Qco"/>
                             <constraint firstItem="ADd-kG-r5v" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="bq4-F4-4Gl"/>
                             <constraint firstItem="fVW-ce-13D" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="dch-pD-iDQ"/>
                             <constraint firstAttribute="trailing" secondItem="Ccc-5d-aLw" secondAttribute="trailing" id="eKL-xM-iOM"/>
@@ -183,6 +182,7 @@
     <resources>
         <image name="background.png" width="1136" height="640"/>
         <image name="bottom.png" width="320" height="189"/>
+        <image name="middle.png" width="320" height="1000"/>
         <image name="speedo.png" width="1482" height="83"/>
         <image name="speedoOverlay.png" width="320" height="83"/>
     </resources>

@@ -24,6 +24,7 @@
 		FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7975195C2E5700C4ADC0 /* chevron4.png */; };
 		FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7976195C2E5700C4ADC0 /* chevron5.png */; };
 		FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7977195C2E5700C4ADC0 /* targetspeed.png */; };
+		FDB906A019659CC8005815BA /* middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB9069F19659CC8005815BA /* middle@2x.png */; };
 		FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC84F519629D7C00467F30 /* AeroViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		FD7A7975195C2E5700C4ADC0 /* chevron4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron4.png; path = assets/chevron4.png; sourceTree = SOURCE_ROOT; };
 		FD7A7976195C2E5700C4ADC0 /* chevron5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron5.png; path = assets/chevron5.png; sourceTree = SOURCE_ROOT; };
 		FD7A7977195C2E5700C4ADC0 /* targetspeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targetspeed.png; path = assets/targetspeed.png; sourceTree = SOURCE_ROOT; };
+		FDB9069F19659CC8005815BA /* middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middle@2x.png"; path = "assets/middle@2x.png"; sourceTree = SOURCE_ROOT; };
 		FDEC84F519629D7C00467F30 /* AeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				FD649B6A1963078600DBE222 /* speedo@2x.png */,
 				FD106A821964239400424A4A /* speedoOverlay@2x.png */,
 				FD106A7619640EFB00424A4A /* bottom@2x.png */,
+				FDB9069F19659CC8005815BA /* middle@2x.png */,
 				FD106A8819644A3C00424A4A /* Dotmatrx.ttf */,
 				FD106A86196442E500424A4A /* dial@2x.png */,
 				FD7A7972195C2E5700C4ADC0 /* background.png */,
@@ -243,6 +246,7 @@
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
 				FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */,
 				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
+				FDB906A019659CC8005815BA /* middle@2x.png in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
 				FD106A87196442E500424A4A /* dial@2x.png in Resources */,
