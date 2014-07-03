@@ -49,7 +49,7 @@ class AeroViewController: UIViewController , CLLocationManagerDelegate {
     
     timeLabel.text = s
     
-  }
+  } 
   
   func locationManager(manager:CLLocationManager, didUpdateLocations locations:AnyObject[])
   {

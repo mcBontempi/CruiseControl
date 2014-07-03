@@ -103,12 +103,10 @@
                                     <constraint firstAttribute="height" constant="120" id="pWF-aS-cYW"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcA-VI-rwy">
-                                <rect key="frame" x="213" y="508" width="107" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.75686274509803919" green="0.74901960784313726" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHj-pR-INg">
+                                <rect key="frame" x="0.0" y="456" width="320" height="112"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVW-ce-13D">
                                 <rect key="frame" x="0.0" y="0.0" width="1482" height="83"/>
                                 <constraints>
@@ -116,29 +114,46 @@
                                     <constraint firstAttribute="height" constant="83" id="kQc-aE-lkm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
-                                <rect key="frame" x="42" y="504" width="138" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.75686274509803919" green="0.74901960784313726" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mX6-86-qMY">
-                                <rect key="frame" x="42" y="480" width="93" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zb-Hd-YA9">
-                                <rect key="frame" x="213" y="480" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speedoOverlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-5d-aLw">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GlA-Kf-bbd">
+                                <rect key="frame" x="20" y="480" width="285" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mX6-86-qMY">
+                                        <rect key="frame" x="28" y="12" width="93" height="21"/>
+                                        <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="13"/>
+                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcA-VI-rwy">
+                                        <rect key="frame" x="230" y="0.0" width="66" height="21"/>
+                                        <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="13"/>
+                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zb-Hd-YA9">
+                                        <rect key="frame" x="214" y="-1" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="speedoOverlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-5d-aLw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2b-8p-qE8">
+                                <rect key="frame" x="139" y="274" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
+                                <rect key="frame" x="67" y="484" width="138" height="59"/>
+                                <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="41"/>
+                                <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="0MP-mw-wWV"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="CfA-wD-W2Y"/>
@@ -146,7 +161,9 @@
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="JFB-Ym-Wsg"/>
                             <constraint firstItem="ADd-kG-r5v" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="bq4-F4-4Gl"/>
                             <constraint firstItem="fVW-ce-13D" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="dch-pD-iDQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ccc-5d-aLw" secondAttribute="trailing" id="eKL-xM-iOM"/>
                             <constraint firstItem="fVW-ce-13D" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" id="fG7-23-Ixn"/>
+                            <constraint firstItem="Ccc-5d-aLw" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="vHL-53-6SC"/>
                             <constraint firstItem="ADd-kG-r5v" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="zLo-TQ-B7N"/>
                         </constraints>
                     </view>
