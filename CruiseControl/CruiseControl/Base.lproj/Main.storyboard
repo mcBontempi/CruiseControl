@@ -87,6 +87,13 @@
         <!--Aero View Controller-->
         <scene sceneID="dXD-p0-M5L">
             <objects>
+                <tapGestureRecognizer id="riB-pq-xs6">
+                    <connections>
+                        <action selector="viewTapped:" destination="bsB-ox-kcq" id="g9x-Ph-c9D"/>
+                        <outlet property="delegate" destination="bsB-ox-kcq" id="3p5-NE-4MW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="bsB-ox-kcq" customClass="AeroViewController" customModule="CruiseControl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cOj-YH-Cbr"/>
@@ -96,8 +103,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="middle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bvI-Vu-AQS">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="middleMarkers.png" translatesAutoresizingMaskIntoConstraints="NO" id="bvI-Vu-AQS">
+                                <rect key="frame" x="0.0" y="-235" width="320" height="1000"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="riB-pq-xs6" appends="YES" id="lsi-o2-Yv7"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sideMarkers.png" translatesAutoresizingMaskIntoConstraints="NO" id="EdD-Tb-FQ8">
+                                <rect key="frame" x="0.0" y="-235" width="320" height="1000"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="ADd-kG-r5v">
                                 <rect key="frame" x="0.0" y="448" width="320" height="120"/>
@@ -150,31 +163,43 @@
                                 <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifier.png" translatesAutoresizingMaskIntoConstraints="NO" id="5am-Gs-gZ5">
+                                <rect key="frame" x="0.0" y="260" width="320" height="10"/>
+                            </imageView>
                         </subviews>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="0MP-mw-wWV"/>
+                            <constraint firstItem="EdD-Tb-FQ8" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" constant="-235" id="Bue-8x-EWd"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="CfA-wD-W2Y"/>
+                            <constraint firstAttribute="trailing" secondItem="bvI-Vu-AQS" secondAttribute="trailing" id="GmT-kH-ceR"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="H87-nP-VWu"/>
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="JFB-Ym-Wsg"/>
-                            <constraint firstAttribute="trailing" secondItem="bvI-Vu-AQS" secondAttribute="trailing" id="OtP-aS-iXa"/>
-                            <constraint firstItem="bvI-Vu-AQS" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="RmG-m5-Qco"/>
+                            <constraint firstItem="bvI-Vu-AQS" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="Ock-3c-JOM"/>
+                            <constraint firstAttribute="trailing" secondItem="EdD-Tb-FQ8" secondAttribute="trailing" id="TCE-h6-0EC"/>
                             <constraint firstItem="ADd-kG-r5v" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="bq4-F4-4Gl"/>
+                            <constraint firstItem="bvI-Vu-AQS" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" constant="-235" id="byv-6g-UVr"/>
                             <constraint firstItem="fVW-ce-13D" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="dch-pD-iDQ"/>
                             <constraint firstAttribute="trailing" secondItem="Ccc-5d-aLw" secondAttribute="trailing" id="eKL-xM-iOM"/>
                             <constraint firstItem="fVW-ce-13D" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" id="fG7-23-Ixn"/>
+                            <constraint firstItem="EdD-Tb-FQ8" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="jQd-Kx-vzl"/>
                             <constraint firstItem="Ccc-5d-aLw" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="vHL-53-6SC"/>
                             <constraint firstItem="ADd-kG-r5v" firstAttribute="leading" secondItem="uQz-F3-U86" secondAttribute="leading" id="zLo-TQ-B7N"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="riB-pq-xs6" appends="YES" id="2VW-VK-Okr"/>
+                        </connections>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="layer1Offset" destination="byv-6g-UVr" id="FwY-Ic-aMO"/>
+                        <outlet property="layer2Offset" destination="Bue-8x-EWd" id="0au-Di-Z9u"/>
                         <outlet property="speedLabel" destination="UUG-2c-g1J" id="zYM-tK-HbH"/>
                         <outlet property="speedoOffset" destination="dch-pD-iDQ" id="DV5-pq-IIh"/>
                         <outlet property="timeLabel" destination="ZcA-VI-rwy" id="mjQ-KM-fRD"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="329" y="758"/>
         </scene>
@@ -182,7 +207,9 @@
     <resources>
         <image name="background.png" width="1136" height="640"/>
         <image name="bottom.png" width="320" height="189"/>
-        <image name="middle.png" width="320" height="1000"/>
+        <image name="identifier.png" width="320" height="10"/>
+        <image name="middleMarkers.png" width="320" height="1000"/>
+        <image name="sideMarkers.png" width="320" height="1000"/>
         <image name="speedo.png" width="1482" height="83"/>
         <image name="speedoOverlay.png" width="320" height="83"/>
     </resources>

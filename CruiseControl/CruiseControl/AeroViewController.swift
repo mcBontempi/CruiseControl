@@ -8,11 +8,13 @@ class AeroViewController: UIViewController , CLLocationManagerDelegate {
   @IBOutlet var timeLabel: UILabel
   
   @IBOutlet var speedoOffset: NSLayoutConstraint
-  var currentSpeed :Double = 0
-  var cruiseSpeed :Double!
+  var currentSpeed :Float = 0
+  var cruiseSpeed :Float!
   
+  @IBOutlet var layer1Offset: NSLayoutConstraint
   var manager:CLLocationManager!
   
+  @IBOutlet var layer2Offset: NSLayoutConstraint
   
   @IBAction func viewTapped(sender: AnyObject)
   {
@@ -60,12 +62,31 @@ class AeroViewController: UIViewController , CLLocationManagerDelegate {
     
     let location = locations[0] as CLLocation
     
-    currentSpeed = location.speed / 0.44706667;
+    let speed:Float = Float(location.speed);
+    
+    currentSpeed = speed / 0.44706667;
+    
+    var difference:Float = 0.0
+    
+    if let cruizeSpeedNotNil = cruiseSpeed {
+    
+      difference = cruizeSpeedNotNil - currentSpeed
+    
+    }
+    
+      layer1Offset.constant = (difference*40) - 235
+      
+      layer2Offset.constant = -235-(difference*160)
+      
+    
+    
     
     speedLabel.text = String(format:"%.1f",currentSpeed)
     
     speedoOffset.constant = Float(0.0-(currentSpeed*6.34))
   
+    
+    
     UIView.animateWithDuration(0.5, animations: {
     
       self.view.layoutSubviews()

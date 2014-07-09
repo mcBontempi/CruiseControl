@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A7619640EFB00424A4A /* bottom@2x.png */; };
 		FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A821964239400424A4A /* speedoOverlay@2x.png */; };
-		FD106A851964381A00424A4A /* middleMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A841964381A00424A4A /* middleMarkers@2x.png */; };
 		FD106A87196442E500424A4A /* dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A86196442E500424A4A /* dial@2x.png */; };
 		FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD106A8819644A3C00424A4A /* Dotmatrx.ttf */; };
 		FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD649B6A1963078600DBE222 /* speedo@2x.png */; };
+		FD6DF14C196D6AE30055B293 /* middleMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */; };
+		FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */; };
+		FD6DF152196D772E0055B293 /* identifier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF151196D772E0055B293 /* identifier@2x.png */; };
 		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
 		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
@@ -24,7 +26,6 @@
 		FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7975195C2E5700C4ADC0 /* chevron4.png */; };
 		FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7976195C2E5700C4ADC0 /* chevron5.png */; };
 		FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7977195C2E5700C4ADC0 /* targetspeed.png */; };
-		FDB906A019659CC8005815BA /* middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB9069F19659CC8005815BA /* middle@2x.png */; };
 		FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC84F519629D7C00467F30 /* AeroViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +42,12 @@
 /* Begin PBXFileReference section */
 		FD106A7619640EFB00424A4A /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom@2x.png"; path = "assets/bottom@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A821964239400424A4A /* speedoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedoOverlay@2x.png"; path = "assets/speedoOverlay@2x.png"; sourceTree = SOURCE_ROOT; };
-		FD106A841964381A00424A4A /* middleMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middleMarkers@2x.png"; path = "assets/middleMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A86196442E500424A4A /* dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dial@2x.png"; path = "assets/dial@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A8819644A3C00424A4A /* Dotmatrx.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dotmatrx.ttf; path = assets/Dotmatrx.ttf; sourceTree = SOURCE_ROOT; };
 		FD649B6A1963078600DBE222 /* speedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedo@2x.png"; path = "assets/speedo@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middleMarkers@2x.png"; path = "assets/middleMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sideMarkers@2x.png"; path = "assets/sideMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD6DF151196D772E0055B293 /* identifier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "identifier@2x.png"; path = "assets/identifier@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		FD7A7975195C2E5700C4ADC0 /* chevron4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron4.png; path = assets/chevron4.png; sourceTree = SOURCE_ROOT; };
 		FD7A7976195C2E5700C4ADC0 /* chevron5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron5.png; path = assets/chevron5.png; sourceTree = SOURCE_ROOT; };
 		FD7A7977195C2E5700C4ADC0 /* targetspeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targetspeed.png; path = assets/targetspeed.png; sourceTree = SOURCE_ROOT; };
-		FDB9069F19659CC8005815BA /* middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middle@2x.png"; path = "assets/middle@2x.png"; sourceTree = SOURCE_ROOT; };
 		FDEC84F519629D7C00467F30 /* AeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,14 +144,15 @@
 		FD7A7971195C2E4400C4ADC0 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */,
+				FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */,
+				FD6DF151196D772E0055B293 /* identifier@2x.png */,
 				FD649B6A1963078600DBE222 /* speedo@2x.png */,
 				FD106A821964239400424A4A /* speedoOverlay@2x.png */,
 				FD106A7619640EFB00424A4A /* bottom@2x.png */,
-				FDB9069F19659CC8005815BA /* middle@2x.png */,
 				FD106A8819644A3C00424A4A /* Dotmatrx.ttf */,
 				FD106A86196442E500424A4A /* dial@2x.png */,
 				FD7A7972195C2E5700C4ADC0 /* background.png */,
-				FD106A841964381A00424A4A /* middleMarkers@2x.png */,
 				FD7A7973195C2E5700C4ADC0 /* chevron1.png */,
 				FD7A7974195C2E5700C4ADC0 /* chevron2.png */,
 				FD7A7975195C2E5700C4ADC0 /* chevron4.png */,
@@ -241,17 +244,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */,
+				FD6DF152196D772E0055B293 /* identifier@2x.png in Resources */,
 				FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */,
 				FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */,
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
 				FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */,
+				FD6DF14C196D6AE30055B293 /* middleMarkers@2x.png in Resources */,
 				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
-				FDB906A019659CC8005815BA /* middle@2x.png in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
+				FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */,
 				FD106A87196442E500424A4A /* dial@2x.png in Resources */,
 				FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */,
-				FD106A851964381A00424A4A /* middleMarkers@2x.png in Resources */,
 				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
 				FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */,
