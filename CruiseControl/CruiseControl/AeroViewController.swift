@@ -76,7 +76,7 @@ class AeroViewController: UIViewController , CLLocationManagerDelegate {
     
       layer1Offset.constant = (difference*40) - 235
       
-      layer2Offset.constant = -235-(difference*160)
+      layer2Offset.constant = -235-(difference*80)
       
     
     

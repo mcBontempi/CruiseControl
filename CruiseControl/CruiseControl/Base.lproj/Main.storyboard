@@ -87,13 +87,6 @@
         <!--Aero View Controller-->
         <scene sceneID="dXD-p0-M5L">
             <objects>
-                <tapGestureRecognizer id="riB-pq-xs6">
-                    <connections>
-                        <action selector="viewTapped:" destination="bsB-ox-kcq" id="g9x-Ph-c9D"/>
-                        <outlet property="delegate" destination="bsB-ox-kcq" id="3p5-NE-4MW"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="bsB-ox-kcq" customClass="AeroViewController" customModule="CruiseControl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cOj-YH-Cbr"/>
@@ -121,6 +114,29 @@
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHj-pR-INg">
                                 <rect key="frame" x="0.0" y="456" width="320" height="112"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clockbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Ic-1H-Y14">
+                                        <rect key="frame" x="20" y="15" width="280" height="77"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
+                                        <rect key="frame" x="224" y="17" width="94" height="27"/>
+                                        <fontDescription key="fontDescription" name="Digitaldream" family="Digital dream" pointSize="19"/>
+                                        <color key="textColor" red="0.16272189349112426" green="0.16272189349112426" blue="0.16272189349112426" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mph" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOV-rt-Q7r">
+                                        <rect key="frame" x="266" y="37" width="54" height="21"/>
+                                        <fontDescription key="fontDescription" name="Digitaldream" family="Digital dream" pointSize="10"/>
+                                        <color key="textColor" red="0.16272189349999999" green="0.16272189349999999" blue="0.16272189349999999" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcA-VI-rwy">
+                                        <rect key="frame" x="61" y="31" width="166" height="46"/>
+                                        <fontDescription key="fontDescription" name="Digitaldream" family="Digital dream" pointSize="33"/>
+                                        <color key="textColor" white="0.0" alpha="0.67000000000000004" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVW-ce-13D">
@@ -130,41 +146,14 @@
                                     <constraint firstAttribute="height" constant="83" id="kQc-aE-lkm"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GlA-Kf-bbd">
-                                <rect key="frame" x="20" y="480" width="285" height="68"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mX6-86-qMY">
-                                        <rect key="frame" x="28" y="12" width="93" height="21"/>
-                                        <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="13"/>
-                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcA-VI-rwy">
-                                        <rect key="frame" x="230" y="0.0" width="66" height="21"/>
-                                        <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="13"/>
-                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zb-Hd-YA9">
-                                        <rect key="frame" x="214" y="-1" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="speedoOverlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-5d-aLw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
-                                <rect key="frame" x="67" y="484" width="138" height="59"/>
-                                <fontDescription key="fontDescription" name="DotMatrix-Regular" family="DotMatrix" pointSize="41"/>
-                                <color key="textColor" red="0.81092489919999999" green="0.2732484879" blue="0.1350176411" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifier.png" translatesAutoresizingMaskIntoConstraints="NO" id="5am-Gs-gZ5">
                                 <rect key="frame" x="0.0" y="260" width="320" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clockfrontgreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="m2X-QG-9jX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
                             </imageView>
                         </subviews>
                         <gestureRecognizers/>
@@ -200,6 +189,13 @@
                         <outlet property="timeLabel" destination="ZcA-VI-rwy" id="mjQ-KM-fRD"/>
                     </connections>
                 </viewController>
+                <tapGestureRecognizer id="riB-pq-xs6">
+                    <connections>
+                        <action selector="viewTapped:" destination="bsB-ox-kcq" id="g9x-Ph-c9D"/>
+                        <outlet property="delegate" destination="bsB-ox-kcq" id="3p5-NE-4MW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVi-00-7c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="329" y="758"/>
         </scene>
@@ -207,7 +203,9 @@
     <resources>
         <image name="background.png" width="1136" height="640"/>
         <image name="bottom.png" width="320" height="189"/>
-        <image name="identifier.png" width="320" height="10"/>
+        <image name="clockbackground.png" width="142" height="34"/>
+        <image name="clockfrontgreen.png" width="142" height="34"/>
+        <image name="identifier.png" width="334" height="35"/>
         <image name="middleMarkers.png" width="320" height="1000"/>
         <image name="sideMarkers.png" width="320" height="1000"/>
         <image name="speedo.png" width="1482" height="83"/>
