@@ -152,9 +152,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifier.png" translatesAutoresizingMaskIntoConstraints="NO" id="5am-Gs-gZ5">
                                 <rect key="frame" x="0.0" y="260" width="320" height="10"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clockfrontgreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="m2X-QG-9jX">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
-                            </imageView>
                         </subviews>
                         <gestureRecognizers/>
                         <constraints>
@@ -204,7 +201,6 @@
         <image name="background.png" width="1136" height="640"/>
         <image name="bottom.png" width="320" height="189"/>
         <image name="clockbackground.png" width="142" height="34"/>
-        <image name="clockfrontgreen.png" width="142" height="34"/>
         <image name="identifier.png" width="334" height="35"/>
         <image name="middleMarkers.png" width="320" height="1000"/>
         <image name="sideMarkers.png" width="320" height="1000"/>

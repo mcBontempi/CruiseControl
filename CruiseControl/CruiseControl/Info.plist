@@ -23,9 +23,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>skdhcjdsc</string>
+	<string>Needed For Your Speed</string>
 	<key>NSLocationUsageDescription</key>
-	<string>We want to track you.</string>
+	<string>GPS Needed For Your Speed</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>Main-iPad</string>
 	<key>UIAppFonts</key>
