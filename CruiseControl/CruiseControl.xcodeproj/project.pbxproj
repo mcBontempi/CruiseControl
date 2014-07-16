@@ -31,6 +31,7 @@
 		FD6DF173196FFE8E0055B293 /* icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF172196FFE8E0055B293 /* icon60@2x.png */; };
 		FD6DF175196FFF2E0055B293 /* icon57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF174196FFF2E0055B293 /* icon57@2x.png */; };
 		FD6DF177197002A20055B293 /* icon114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF176197002A20055B293 /* icon114@2x.png */; };
+		FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF1781976874F0055B293 /* bottomLogo.png */; };
 		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
 		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		FD6DF172196FFE8E0055B293 /* icon60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon60@2x.png"; path = "assets/icon60@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF174196FFF2E0055B293 /* icon57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon57@2x.png"; path = "assets/icon57@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF176197002A20055B293 /* icon114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon114@2x.png"; path = "assets/icon114@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD6DF1781976874F0055B293 /* bottomLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomLogo.png; path = assets/bottomLogo.png; sourceTree = SOURCE_ROOT; };
 		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				FD6DF16A196FF7EC0055B293 /* icon57.png */,
 				FD6DF174196FFF2E0055B293 /* icon57@2x.png */,
 				FD6DF168196FF6EA0055B293 /* icon80.png */,
+				FD6DF1781976874F0055B293 /* bottomLogo.png */,
 				FD6DF164196FF58F0055B293 /* icon29.png */,
 				FD6DF159196E98B70055B293 /* digital-7.ttf */,
 				FD6DF15E196EC22C0055B293 /* ArmWrestler.ttf */,
@@ -319,6 +322,7 @@
 				FD6DF16F196FFAEE0055B293 /* icon50.png in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
+				FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */,
 				FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */,
 				FD6DF155196E8F330055B293 /* clockbackground@2x.png in Resources */,
 				FD6DF163196FEBF30055B293 /* Media.xcassets in Resources */,
