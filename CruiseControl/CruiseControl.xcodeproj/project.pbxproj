@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D67DCC901982B5AE008C74AA /* SpecialForSmoke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */; };
+		D67DCC921982B771008C74AA /* sitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = D67DCC911982B771008C74AA /* sitar.wav */; };
 		FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A7619640EFB00424A4A /* bottom@2x.png */; };
 		FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A821964239400424A4A /* speedoOverlay@2x.png */; };
 		FD106A87196442E500424A4A /* dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A86196442E500424A4A /* dial@2x.png */; };
@@ -14,9 +16,6 @@
 		FD250DFC1976C0F9001DF1A2 /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFB1976C0F9001DF1A2 /* launchscreen@2x.png */; };
 		FD250DFE1976C4A1001DF1A2 /* iphone5reslaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFD1976C4A1001DF1A2 /* iphone5reslaunch@2x.png */; };
 		FD250E001976C56E001DF1A2 /* iphone4Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFF1976C56E001DF1A2 /* iphone4Launch.png */; };
-		FD250E0419825C5C001DF1A2 /* alert_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD250E0119825C5C001DF1A2 /* alert_tone.mp3 */; };
-		FD250E0519825C5C001DF1A2 /* audi_r8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD250E0219825C5C001DF1A2 /* audi_r8.mp3 */; };
-		FD250E0619825C5C001DF1A2 /* soft_chime_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD250E0319825C5C001DF1A2 /* soft_chime_beep.mp3 */; };
 		FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD649B6A1963078600DBE222 /* speedo@2x.png */; };
 		FD6DF14C196D6AE30055B293 /* middleMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */; };
 		FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */; };
@@ -41,7 +40,6 @@
 		FD6DF17D1976B5810055B293 /* iphone4LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF17C1976B5810055B293 /* iphone4LaunchImage.png */; };
 		FD6DF17F1976BB090055B293 /* iphone3res.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF17E1976BB090055B293 /* iphone3res.png */; };
 		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
-		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
 		FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7A795B195C049400C4ADC0 /* Images.xcassets */; };
 		FD7A7968195C049400C4ADC0 /* CruiseControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7967195C049400C4ADC0 /* CruiseControlTests.swift */; };
@@ -65,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SpecialForSmoke.mp3; path = assets/SpecialForSmoke.mp3; sourceTree = SOURCE_ROOT; };
+		D67DCC911982B771008C74AA /* sitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sitar.wav; path = "../../../../../../daren.taylor_darens-MacBook-Pro-2_6746/daren.taylor_darens-MacBook-Pro-2_6746/depot/Keystone2/IOSWorkspace4.5.1/IOSPlayer/Immerse/assets/sitar.wav"; sourceTree = "<group>"; };
 		FD106A7619640EFB00424A4A /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom@2x.png"; path = "assets/bottom@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A821964239400424A4A /* speedoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedoOverlay@2x.png"; path = "assets/speedoOverlay@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A86196442E500424A4A /* dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dial@2x.png"; path = "assets/dial@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -72,9 +72,6 @@
 		FD250DFB1976C0F9001DF1A2 /* launchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchscreen@2x.png"; path = "assets/LaunchScreenResolutions/launchscreen@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD250DFD1976C4A1001DF1A2 /* iphone5reslaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iphone5reslaunch@2x.png"; path = "assets/LaunchScreenResolutions/iphone5reslaunch@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD250DFF1976C56E001DF1A2 /* iphone4Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4Launch.png; path = assets/LaunchScreenResolutions/iphone4Launch.png; sourceTree = SOURCE_ROOT; };
-		FD250E0119825C5C001DF1A2 /* alert_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alert_tone.mp3; path = ../../../../../../Desktop/sounds/alert_tone.mp3; sourceTree = "<group>"; };
-		FD250E0219825C5C001DF1A2 /* audi_r8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audi_r8.mp3; path = ../../../../../../Desktop/sounds/audi_r8.mp3; sourceTree = "<group>"; };
-		FD250E0319825C5C001DF1A2 /* soft_chime_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soft_chime_beep.mp3; path = ../../../../../../Desktop/sounds/soft_chime_beep.mp3; sourceTree = "<group>"; };
 		FD649B6A1963078600DBE222 /* speedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedo@2x.png"; path = "assets/speedo@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middleMarkers@2x.png"; path = "assets/middleMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sideMarkers@2x.png"; path = "assets/sideMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -101,7 +98,6 @@
 		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD7A7956195C049400C4ADC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD7A7959195C049400C4ADC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD7A795B195C049400C4ADC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FD7A7961195C049400C4ADC0 /* CruiseControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruiseControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,7 +162,6 @@
 				FD6DF153196DB02B0055B293 /* iPad */,
 				FD7A7971195C2E4400C4ADC0 /* assets */,
 				FD7A7954195C049400C4ADC0 /* AppDelegate.swift */,
-				FD7A7956195C049400C4ADC0 /* ViewController.swift */,
 				FD7A7958195C049400C4ADC0 /* Main.storyboard */,
 				FD7A795B195C049400C4ADC0 /* Images.xcassets */,
 				FD7A7952195C049400C4ADC0 /* Supporting Files */,
@@ -203,6 +198,8 @@
 		FD7A7971195C2E4400C4ADC0 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				D67DCC911982B771008C74AA /* sitar.wav */,
+				D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */,
 				FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */,
 				FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */,
 				FD6DF151196D772E0055B293 /* identifier@2x.png */,
@@ -225,9 +222,6 @@
 				FD6DF164196FF58F0055B293 /* icon29.png */,
 				FD6DF159196E98B70055B293 /* digital-7.ttf */,
 				FD6DF15E196EC22C0055B293 /* ArmWrestler.ttf */,
-				FD250E0119825C5C001DF1A2 /* alert_tone.mp3 */,
-				FD250E0219825C5C001DF1A2 /* audi_r8.mp3 */,
-				FD250E0319825C5C001DF1A2 /* soft_chime_beep.mp3 */,
 				FD649B6A1963078600DBE222 /* speedo@2x.png */,
 				FD6DF154196E8F330055B293 /* clockbackground@2x.png */,
 				FD106A821964239400424A4A /* speedoOverlay@2x.png */,
@@ -337,7 +331,6 @@
 				FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */,
 				FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */,
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
-				FD250E0619825C5C001DF1A2 /* soft_chime_beep.mp3 in Resources */,
 				FD6DF16B196FF7EC0055B293 /* icon57.png in Resources */,
 				FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */,
 				FD6DF161196FEB370055B293 /* icon@2x.png in Resources */,
@@ -348,6 +341,7 @@
 				FD250DFE1976C4A1001DF1A2 /* iphone5reslaunch@2x.png in Resources */,
 				FD6DF173196FFE8E0055B293 /* icon60@2x.png in Resources */,
 				FD6DF16F196FFAEE0055B293 /* icon50.png in Resources */,
+				D67DCC901982B5AE008C74AA /* SpecialForSmoke.mp3 in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
 				FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */,
@@ -356,9 +350,9 @@
 				FD6DF155196E8F330055B293 /* clockbackground@2x.png in Resources */,
 				FD6DF163196FEBF30055B293 /* Media.xcassets in Resources */,
 				FD106A87196442E500424A4A /* dial@2x.png in Resources */,
-				FD250E0519825C5C001DF1A2 /* audi_r8.mp3 in Resources */,
 				FD6DF17F1976BB090055B293 /* iphone3res.png in Resources */,
 				FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */,
+				D67DCC921982B771008C74AA /* sitar.wav in Resources */,
 				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
 				FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */,
@@ -366,7 +360,6 @@
 				FD6DF177197002A20055B293 /* icon114@2x.png in Resources */,
 				FD6DF165196FF58F0055B293 /* icon29.png in Resources */,
 				FD6DF169196FF6EA0055B293 /* icon80.png in Resources */,
-				FD250E0419825C5C001DF1A2 /* alert_tone.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */,
-				FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */,
 				FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

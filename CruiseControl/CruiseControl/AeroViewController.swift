@@ -5,113 +5,116 @@ import CoreLocation
 import AudioToolbox
 
 class AeroViewController: UIViewController , CLLocationManagerDelegate {
+    
+    @IBOutlet var speedLabel: UILabel?
+    @IBOutlet var timeLabel: UILabel?
+    
+    @IBOutlet var speedoOffset: NSLayoutConstraint?
+    var currentSpeed :Float = 0
+    var cruiseSpeed :Float!
+    
+    @IBOutlet var layer1Offset: NSLayoutConstraint?
+    var manager:CLLocationManager!
+    
+    @IBOutlet var layer2Offset: NSLayoutConstraint?
   
-  @IBOutlet var speedLabel: UILabel
-  @IBOutlet var timeLabel: UILabel
-  
-  @IBOutlet var speedoOffset: NSLayoutConstraint
-  var currentSpeed :Float = 0
-  var cruiseSpeed :Float!
-  
-  @IBOutlet var layer1Offset: NSLayoutConstraint
-  var manager:CLLocationManager!
-  
-  @IBOutlet var layer2Offset: NSLayoutConstraint
-  
-  @IBAction func viewTapped(sender: AnyObject)
-  {
-    if let cruizeSpeedNotNil = cruiseSpeed {
-      cruiseSpeed = nil
-    }
-    else {
-      cruiseSpeed = currentSpeed
-    }
-  }
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
+    var alert_tone:SystemSoundID?
     
     
-    
-    // Do any additional setup after loading the view, typically from a nib.
-    
-    manager = CLLocationManager()
-    manager.delegate = self
-    manager.desiredAccuracy = kCLLocationAccuracyBest
-    manager.requestAlwaysAuthorization()
-    manager.startUpdatingLocation()
-  }
-  
-  
-  
-  func updateTime()
-  {
-    var dateFormatter = NSDateFormatter()
-    dateFormatter.dateFormat = "HH:mm"
-    let d = NSDate()
-    let s = dateFormatter.stringFromDate(d)
-    
-    timeLabel.text = s
-    
-  } 
-  
-  func locationManager(manager:CLLocationManager, didUpdateLocations locations:AnyObject[])
-  {
-    
-    println("locations = \(locations)")
-    
-    updateTime()
-    
-    let location = locations[0] as CLLocation
-    
-    let speed:Float = Float(location.speed);
-    
-    currentSpeed = speed / 0.44706667;
-    
-    var difference:Float = 0.0
-    
-    if let cruizeSpeedNotNil = cruiseSpeed {
-    
-      difference = cruizeSpeedNotNil - currentSpeed
-    
+    func CreateAlertTone() -> SystemSoundID {
+        var soundID: SystemSoundID = 0
+        let soundURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), "sitar", "wav", nil)
+        AudioServicesCreateSystemSoundID(soundURL, &soundID)
+        return soundID
     }
     
-      layer1Offset.constant = (difference*40) - 235
-      
-      layer2Offset.constant = -235-(difference*80)
-      
-    
-    
-    
-    speedLabel.text = String(format:"%.1f",currentSpeed)
-    
-    speedoOffset.constant = Float(0.0-(currentSpeed*6.34))
-  
-    let alert_tone: SystemSoundID = createalert_tone ;
-    
-    class CashRegisterViewController: UIViewController {
-      override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        AudioServicesPlaySystemSound(alert_tone)
-      }
+    @IBAction func viewTapped(sender: AnyObject)
+    {
+        if let cruizeSpeedNotNil = cruiseSpeed {
+            cruiseSpeed = nil
+        }
+        else {
+            cruiseSpeed = currentSpeed
+        }
     }
     
-    func createalert_tone() -> SystemSoundID {
-      var soundID: SystemSoundID = 0
-      let soundURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), "alert_tone", "aiff", nil)
-      AudioServicesCreateSystemSoundID(soundURL, &soundID)
-      CFRelease(soundURL)
-      return soundID
-    }
     
-    UIView.animateWithDuration(0.5, animations: {
-    
-      self.view.layoutSubviews()
-      
-      })
-    
-    
-  }
 
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        alert_tone = CreateAlertTone()
+        
+        AudioServicesPlaySystemSound(alert_tone!)
+        
+        
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        manager = CLLocationManager()
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestAlwaysAuthorization()
+        manager.startUpdatingLocation()
+    }
+    
+    
+    
+    func updateTime()
+    {
+        var dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
+        let d = NSDate()
+        let s = dateFormatter.stringFromDate(d)
+        
+        timeLabel!.text = s
+        
+    }
+    
+    func locationManager(manager:CLLocationManager, didUpdateLocations locations:[AnyObject])
+    {
+        
+        println("locations = \(locations)")
+        
+        updateTime()
+        
+        let location = locations[0] as CLLocation
+        
+        let speed:Float = Float(location.speed);
+        
+        currentSpeed = speed / 0.44706667;
+        
+        var difference:Float = 0.0
+        
+        if let cruizeSpeedNotNil = cruiseSpeed {
+            
+            difference = cruizeSpeedNotNil - currentSpeed
+            
+        }
+        
+        layer1Offset!.constant = CGFloat((difference*40) - 235)
+        
+        layer2Offset!.constant = CGFloat(-235-(difference*80))
+        
+        
+        
+        
+        speedLabel!.text = String(format:"%.1f",currentSpeed)
+        
+        speedoOffset!.constant = CGFloat(0.0-(currentSpeed*6.34))
+        
+        
+
+        
+        
+        
+        UIView.animateWithDuration(0.5, animations: {
+            self.view.layoutSubviews()
+            })
+    }
+    
+
+    
 }
 
