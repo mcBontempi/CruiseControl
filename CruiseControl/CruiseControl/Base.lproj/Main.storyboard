@@ -112,10 +112,10 @@
                                     <constraint firstAttribute="height" constant="120" id="pWF-aS-cYW"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHj-pR-INg">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHj-pR-INg">
                                 <rect key="frame" x="0.0" y="456" width="320" height="112"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clockbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Ic-1H-Y14">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="clockbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Ic-1H-Y14">
                                         <rect key="frame" x="20" y="15" width="280" height="77"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-2c-g1J">
@@ -136,8 +136,18 @@
                                         <color key="textColor" white="0.0" alpha="0.67000000000000004" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Cruise Control" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4p-Xv-QR0">
+                                        <rect key="frame" x="123" y="94" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="11"/>
+                                        <color key="textColor" red="0.57121125892866165" green="0.83596061390532539" blue="0.67405924902494863" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="j4p-Xv-QR0" firstAttribute="top" secondItem="8Ic-1H-Y14" secondAttribute="bottom" id="bt3-me-1QA"/>
+                                    <constraint firstAttribute="bottom" secondItem="j4p-Xv-QR0" secondAttribute="bottom" constant="-3" id="lO3-7C-Lgh"/>
+                                </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVW-ce-13D">
                                 <rect key="frame" x="0.0" y="0.0" width="1482" height="83"/>
@@ -158,6 +168,7 @@
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="0MP-mw-wWV"/>
                             <constraint firstItem="EdD-Tb-FQ8" firstAttribute="top" secondItem="uQz-F3-U86" secondAttribute="top" constant="-235" id="Bue-8x-EWd"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="CfA-wD-W2Y"/>
+                            <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="VHj-pR-INg" secondAttribute="bottom" id="Dfl-3K-xpl"/>
                             <constraint firstAttribute="trailing" secondItem="bvI-Vu-AQS" secondAttribute="trailing" id="GmT-kH-ceR"/>
                             <constraint firstAttribute="trailing" secondItem="ADd-kG-r5v" secondAttribute="trailing" id="H87-nP-VWu"/>
                             <constraint firstItem="rF2-f9-6ux" firstAttribute="top" secondItem="ADd-kG-r5v" secondAttribute="bottom" id="JFB-Ym-Wsg"/>

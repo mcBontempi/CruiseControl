@@ -11,6 +11,9 @@
 		FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A821964239400424A4A /* speedoOverlay@2x.png */; };
 		FD106A87196442E500424A4A /* dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A86196442E500424A4A /* dial@2x.png */; };
 		FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD106A8819644A3C00424A4A /* Dotmatrx.ttf */; };
+		FD250DFC1976C0F9001DF1A2 /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFB1976C0F9001DF1A2 /* launchscreen@2x.png */; };
+		FD250DFE1976C4A1001DF1A2 /* iphone5reslaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFD1976C4A1001DF1A2 /* iphone5reslaunch@2x.png */; };
+		FD250E001976C56E001DF1A2 /* iphone4Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = FD250DFF1976C56E001DF1A2 /* iphone4Launch.png */; };
 		FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD649B6A1963078600DBE222 /* speedo@2x.png */; };
 		FD6DF14C196D6AE30055B293 /* middleMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */; };
 		FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */; };
@@ -32,6 +35,8 @@
 		FD6DF175196FFF2E0055B293 /* icon57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF174196FFF2E0055B293 /* icon57@2x.png */; };
 		FD6DF177197002A20055B293 /* icon114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF176197002A20055B293 /* icon114@2x.png */; };
 		FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF1781976874F0055B293 /* bottomLogo.png */; };
+		FD6DF17D1976B5810055B293 /* iphone4LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF17C1976B5810055B293 /* iphone4LaunchImage.png */; };
+		FD6DF17F1976BB090055B293 /* iphone3res.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF17E1976BB090055B293 /* iphone3res.png */; };
 		FD7A7955195C049400C4ADC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7954195C049400C4ADC0 /* AppDelegate.swift */; };
 		FD7A7957195C049400C4ADC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A7956195C049400C4ADC0 /* ViewController.swift */; };
 		FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7958195C049400C4ADC0 /* Main.storyboard */; };
@@ -61,6 +66,9 @@
 		FD106A821964239400424A4A /* speedoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedoOverlay@2x.png"; path = "assets/speedoOverlay@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A86196442E500424A4A /* dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dial@2x.png"; path = "assets/dial@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A8819644A3C00424A4A /* Dotmatrx.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dotmatrx.ttf; path = assets/Dotmatrx.ttf; sourceTree = SOURCE_ROOT; };
+		FD250DFB1976C0F9001DF1A2 /* launchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchscreen@2x.png"; path = "assets/LaunchScreenResolutions/launchscreen@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD250DFD1976C4A1001DF1A2 /* iphone5reslaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iphone5reslaunch@2x.png"; path = "assets/LaunchScreenResolutions/iphone5reslaunch@2x.png"; sourceTree = SOURCE_ROOT; };
+		FD250DFF1976C56E001DF1A2 /* iphone4Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4Launch.png; path = assets/LaunchScreenResolutions/iphone4Launch.png; sourceTree = SOURCE_ROOT; };
 		FD649B6A1963078600DBE222 /* speedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedo@2x.png"; path = "assets/speedo@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "middleMarkers@2x.png"; path = "assets/middleMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sideMarkers@2x.png"; path = "assets/sideMarkers@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -82,6 +90,8 @@
 		FD6DF174196FFF2E0055B293 /* icon57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon57@2x.png"; path = "assets/icon57@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF176197002A20055B293 /* icon114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon114@2x.png"; path = "assets/icon114@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD6DF1781976874F0055B293 /* bottomLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomLogo.png; path = assets/bottomLogo.png; sourceTree = SOURCE_ROOT; };
+		FD6DF17C1976B5810055B293 /* iphone4LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone4LaunchImage.png; path = assets/iphone4LaunchImage.png; sourceTree = SOURCE_ROOT; };
+		FD6DF17E1976BB090055B293 /* iphone3res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone3res.png; path = assets/LaunchScreenResolutions/iphone3res.png; sourceTree = SOURCE_ROOT; };
 		FD7A794F195C049400C4ADC0 /* CruiseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7A7953195C049400C4ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7A7954195C049400C4ADC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -194,8 +204,13 @@
 				FD6DF176197002A20055B293 /* icon114@2x.png */,
 				FD6DF172196FFE8E0055B293 /* icon60@2x.png */,
 				FD6DF166196FF67E0055B293 /* icon58.png */,
+				FD250DFD1976C4A1001DF1A2 /* iphone5reslaunch@2x.png */,
+				FD250DFF1976C56E001DF1A2 /* iphone4Launch.png */,
+				FD6DF17E1976BB090055B293 /* iphone3res.png */,
+				FD250DFB1976C0F9001DF1A2 /* launchscreen@2x.png */,
 				FD6DF16C196FFA100055B293 /* icon40.png */,
 				FD6DF16E196FFAEE0055B293 /* icon50.png */,
+				FD6DF17C1976B5810055B293 /* iphone4LaunchImage.png */,
 				FD6DF170196FFBC60055B293 /* icon100.png */,
 				FD6DF16A196FF7EC0055B293 /* icon57.png */,
 				FD6DF174196FFF2E0055B293 /* icon57@2x.png */,
@@ -302,11 +317,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6DF17D1976B5810055B293 /* iphone4LaunchImage.png in Resources */,
 				FD6DF175196FFF2E0055B293 /* icon57@2x.png in Resources */,
 				FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */,
 				FD6DF15A196E99370055B293 /* digital-7.ttf in Resources */,
 				FD6DF152196D772E0055B293 /* identifier@2x.png in Resources */,
 				FD6DF167196FF67E0055B293 /* icon58.png in Resources */,
+				FD250E001976C56E001DF1A2 /* iphone4Launch.png in Resources */,
 				FD6DF15F196EC22C0055B293 /* ArmWrestler.ttf in Resources */,
 				FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */,
 				FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */,
@@ -318,15 +335,18 @@
 				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
 				FD6DF16D196FFA100055B293 /* icon40.png in Resources */,
 				FD6DF15B196E998D0055B293 /* Digitaldream.ttf in Resources */,
+				FD250DFE1976C4A1001DF1A2 /* iphone5reslaunch@2x.png in Resources */,
 				FD6DF173196FFE8E0055B293 /* icon60@2x.png in Resources */,
 				FD6DF16F196FFAEE0055B293 /* icon50.png in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
 				FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */,
 				FD6DF150196D70B30055B293 /* sideMarkers@2x.png in Resources */,
+				FD250DFC1976C0F9001DF1A2 /* launchscreen@2x.png in Resources */,
 				FD6DF155196E8F330055B293 /* clockbackground@2x.png in Resources */,
 				FD6DF163196FEBF30055B293 /* Media.xcassets in Resources */,
 				FD106A87196442E500424A4A /* dial@2x.png in Resources */,
+				FD6DF17F1976BB090055B293 /* iphone3res.png in Resources */,
 				FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */,
 				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
@@ -478,7 +498,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -491,7 +511,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
