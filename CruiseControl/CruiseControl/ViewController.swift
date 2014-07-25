@@ -10,6 +10,8 @@ import UIKit
 
 import CoreLocation
 
+
+
 class ViewController: UIViewController , CLLocationManagerDelegate {
   
   @IBOutlet var backgroundImageView: UIImageView
@@ -45,7 +47,6 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     manager.requestAlwaysAuthorization()
     manager.startUpdatingLocation()
   }
-  
   
   
   func updateTime()
@@ -98,6 +99,8 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     }
     
   }
+  
+  
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()

@@ -2,6 +2,8 @@ import UIKit
 
 import CoreLocation
 
+import AudioToolbox
+
 class AeroViewController: UIViewController , CLLocationManagerDelegate {
   
   @IBOutlet var speedLabel: UILabel
@@ -85,13 +87,29 @@ class AeroViewController: UIViewController , CLLocationManagerDelegate {
     
     speedoOffset.constant = Float(0.0-(currentSpeed*6.34))
   
+    let alert_tone: SystemSoundID = createalert_tone ;
     
+    class CashRegisterViewController: UIViewController {
+      override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        AudioServicesPlaySystemSound(alert_tone)
+      }
+    }
+    
+    func createalert_tone() -> SystemSoundID {
+      var soundID: SystemSoundID = 0
+      let soundURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), "alert_tone", "aiff", nil)
+      AudioServicesCreateSystemSoundID(soundURL, &soundID)
+      CFRelease(soundURL)
+      return soundID
+    }
     
     UIView.animateWithDuration(0.5, animations: {
     
       self.view.layoutSubviews()
       
       })
+    
     
   }
 
