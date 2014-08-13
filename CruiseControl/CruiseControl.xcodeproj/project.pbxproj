@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D67DCC901982B5AE008C74AA /* SpecialForSmoke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */; };
-		D67DCC921982B771008C74AA /* sitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = D67DCC911982B771008C74AA /* sitar.wav */; };
 		FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A7619640EFB00424A4A /* bottom@2x.png */; };
 		FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A821964239400424A4A /* speedoOverlay@2x.png */; };
 		FD106A87196442E500424A4A /* dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD106A86196442E500424A4A /* dial@2x.png */; };
@@ -49,6 +47,10 @@
 		FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7975195C2E5700C4ADC0 /* chevron4.png */; };
 		FD7A797C195C2E5700C4ADC0 /* chevron5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7976195C2E5700C4ADC0 /* chevron5.png */; };
 		FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7A7977195C2E5700C4ADC0 /* targetspeed.png */; };
+		FDC86400199B735800D4848A /* topspeedoled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC863FF199B735800D4848A /* topspeedoled@2x.png */; };
+		FDC86403199B744C00D4848A /* beep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDC86401199B744C00D4848A /* beep1.mp3 */; };
+		FDC86404199B744C00D4848A /* beep5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDC86402199B744C00D4848A /* beep5.mp3 */; };
+		FDC86406199B765800D4848A /* whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = FDC86405199B765800D4848A /* whoosh.wav */; };
 		FDEC84F619629D7C00467F30 /* AeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC84F519629D7C00467F30 /* AeroViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,8 +65,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SpecialForSmoke.mp3; path = assets/SpecialForSmoke.mp3; sourceTree = SOURCE_ROOT; };
-		D67DCC911982B771008C74AA /* sitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sitar.wav; path = "../../../../../../daren.taylor_darens-MacBook-Pro-2_6746/daren.taylor_darens-MacBook-Pro-2_6746/depot/Keystone2/IOSWorkspace4.5.1/IOSPlayer/Immerse/assets/sitar.wav"; sourceTree = "<group>"; };
 		FD106A7619640EFB00424A4A /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom@2x.png"; path = "assets/bottom@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A821964239400424A4A /* speedoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speedoOverlay@2x.png"; path = "assets/speedoOverlay@2x.png"; sourceTree = SOURCE_ROOT; };
 		FD106A86196442E500424A4A /* dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dial@2x.png"; path = "assets/dial@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -109,6 +109,10 @@
 		FD7A7975195C2E5700C4ADC0 /* chevron4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron4.png; path = assets/chevron4.png; sourceTree = SOURCE_ROOT; };
 		FD7A7976195C2E5700C4ADC0 /* chevron5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron5.png; path = assets/chevron5.png; sourceTree = SOURCE_ROOT; };
 		FD7A7977195C2E5700C4ADC0 /* targetspeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targetspeed.png; path = assets/targetspeed.png; sourceTree = SOURCE_ROOT; };
+		FDC863FF199B735800D4848A /* topspeedoled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "topspeedoled@2x.png"; path = "assets/topspeedoled@2x.png"; sourceTree = SOURCE_ROOT; };
+		FDC86401199B744C00D4848A /* beep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep1.mp3; path = assets/beep1.mp3; sourceTree = SOURCE_ROOT; };
+		FDC86402199B744C00D4848A /* beep5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep5.mp3; path = assets/beep5.mp3; sourceTree = SOURCE_ROOT; };
+		FDC86405199B765800D4848A /* whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = whoosh.wav; path = assets/whoosh.wav; sourceTree = SOURCE_ROOT; };
 		FDEC84F519629D7C00467F30 /* AeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,8 +202,6 @@
 		FD7A7971195C2E4400C4ADC0 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				D67DCC911982B771008C74AA /* sitar.wav */,
-				D67DCC8F1982B5AE008C74AA /* SpecialForSmoke.mp3 */,
 				FD6DF14F196D70B30055B293 /* sideMarkers@2x.png */,
 				FD6DF14B196D6AE30055B293 /* middleMarkers@2x.png */,
 				FD6DF151196D772E0055B293 /* identifier@2x.png */,
@@ -219,9 +221,12 @@
 				FD6DF174196FFF2E0055B293 /* icon57@2x.png */,
 				FD6DF168196FF6EA0055B293 /* icon80.png */,
 				FD6DF1781976874F0055B293 /* bottomLogo.png */,
+				FDC86401199B744C00D4848A /* beep1.mp3 */,
+				FDC86402199B744C00D4848A /* beep5.mp3 */,
 				FD6DF164196FF58F0055B293 /* icon29.png */,
 				FD6DF159196E98B70055B293 /* digital-7.ttf */,
 				FD6DF15E196EC22C0055B293 /* ArmWrestler.ttf */,
+				FDC863FF199B735800D4848A /* topspeedoled@2x.png */,
 				FD649B6A1963078600DBE222 /* speedo@2x.png */,
 				FD6DF154196E8F330055B293 /* clockbackground@2x.png */,
 				FD106A821964239400424A4A /* speedoOverlay@2x.png */,
@@ -235,6 +240,7 @@
 				FD7A7975195C2E5700C4ADC0 /* chevron4.png */,
 				FD7A7976195C2E5700C4ADC0 /* chevron5.png */,
 				FD7A7977195C2E5700C4ADC0 /* targetspeed.png */,
+				FDC86405199B765800D4848A /* whoosh.wav */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -288,7 +294,7 @@
 				TargetAttributes = {
 					FD7A794E195C049400C4ADC0 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 3U786KR73N;
+						DevelopmentTeam = 8FSTQAZEVR;
 					};
 					FD7A7960195C049400C4ADC0 = {
 						CreatedOnToolsVersion = 6.0;
@@ -330,6 +336,7 @@
 				FD6DF15F196EC22C0055B293 /* ArmWrestler.ttf in Resources */,
 				FD106A8919644B5C00424A4A /* Dotmatrx.ttf in Resources */,
 				FD106A831964239400424A4A /* speedoOverlay@2x.png in Resources */,
+				FDC86400199B735800D4848A /* topspeedoled@2x.png in Resources */,
 				FD7A795A195C049400C4ADC0 /* Main.storyboard in Resources */,
 				FD6DF16B196FF7EC0055B293 /* icon57.png in Resources */,
 				FD106A7719640EFB00424A4A /* bottom@2x.png in Resources */,
@@ -338,10 +345,11 @@
 				FD7A797D195C2E5700C4ADC0 /* targetspeed.png in Resources */,
 				FD6DF16D196FFA100055B293 /* icon40.png in Resources */,
 				FD6DF15B196E998D0055B293 /* Digitaldream.ttf in Resources */,
+				FDC86404199B744C00D4848A /* beep5.mp3 in Resources */,
 				FD250DFE1976C4A1001DF1A2 /* iphone5reslaunch@2x.png in Resources */,
 				FD6DF173196FFE8E0055B293 /* icon60@2x.png in Resources */,
+				FDC86406199B765800D4848A /* whoosh.wav in Resources */,
 				FD6DF16F196FFAEE0055B293 /* icon50.png in Resources */,
-				D67DCC901982B5AE008C74AA /* SpecialForSmoke.mp3 in Resources */,
 				FD7A7979195C2E5700C4ADC0 /* chevron1.png in Resources */,
 				FD7A797B195C2E5700C4ADC0 /* chevron4.png in Resources */,
 				FD6DF1791976874F0055B293 /* bottomLogo.png in Resources */,
@@ -352,11 +360,11 @@
 				FD106A87196442E500424A4A /* dial@2x.png in Resources */,
 				FD6DF17F1976BB090055B293 /* iphone3res.png in Resources */,
 				FD649B6B1963078600DBE222 /* speedo@2x.png in Resources */,
-				D67DCC921982B771008C74AA /* sitar.wav in Resources */,
 				FD7A7978195C2E5700C4ADC0 /* background.png in Resources */,
 				FD7A795C195C049400C4ADC0 /* Images.xcassets in Resources */,
 				FD7A797A195C2E5700C4ADC0 /* chevron2.png in Resources */,
 				FD6DF171196FFBC60055B293 /* icon100.png in Resources */,
+				FDC86403199B744C00D4848A /* beep1.mp3 in Resources */,
 				FD6DF177197002A20055B293 /* icon114@2x.png in Resources */,
 				FD6DF165196FF58F0055B293 /* icon29.png in Resources */,
 				FD6DF169196FF6EA0055B293 /* icon80.png in Resources */,
@@ -450,7 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "86FEAD0C-C935-4A01-B62B-E0A3A52F09C5";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -487,7 +495,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "86FEAD0C-C935-4A01-B62B-E0A3A52F09C5";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -498,8 +506,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CruiseControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -511,8 +520,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CruiseControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
